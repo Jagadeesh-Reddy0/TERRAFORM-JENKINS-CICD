@@ -3,5 +3,5 @@ output "websiteendpoint" {
 }
 
 output "public_ip" {
-  value = aws_instance.Jaggu.public_ip
+  value = aws_instance.Terraform.public_ip
 }
