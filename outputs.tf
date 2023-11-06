@@ -1,5 +1,5 @@
 output "websiteendpoint" {
-  value = aws_s3_bucket.test-jenkins-cloud-2023.website_endpoint
+  value = aws_s3_bucket.jeninss3-terraform.website_endpoint
 }
 
 output "public_ip" {
