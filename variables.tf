@@ -19,3 +19,8 @@ variable "bucketname" {
   type        = string
   default     = "test-jenkins-cloud-2023"
 }
+variable "acl" {
+  description = "The ACL (Access Control List) for the S3 bucket"
+  type        = string
+  default     = "Public"
+}
