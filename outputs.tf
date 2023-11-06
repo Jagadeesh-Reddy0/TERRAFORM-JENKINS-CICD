@@ -3,5 +3,5 @@ output "websiteendpoint" {
 }
 
 output "public_ip" {
-  value = aws_instance.Terraform.public_ip
+  value = aws_instance.TeatTerraform.public_ip
 }
